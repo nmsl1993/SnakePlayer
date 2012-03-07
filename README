@@ -1,0 +1,1 @@
+The hope here is to create a program capable of graphically playing the facebook snake game and doing ok using a combination of xte to fake output, gtk to get input, and OpenCV to process images. We'll she how this actually goes.
