@@ -1,5 +1,5 @@
 import gtk.gdk
-import pyscreenshot as ImageGrab
+import pyscreenshot as ig
 
 import Image
 
@@ -8,7 +8,7 @@ def pixbuf2Image(pb):
     return Image.fromstring("RGB",(width,height),pb.get_pixels() ) 
 
 def getLinuxScreenshot():
-    return ImageGrab.grab()
+    return ig.grab()
 
 '''
     w  = gtk.gdk.get_default_root_window()
